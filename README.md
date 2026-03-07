@@ -14,6 +14,10 @@ This is a custom Minecraft 1.21.1 launcher tailored for a specific server. It fe
 - ✅ **Modern UI** - Clean and easy-to-use interface
 - ✅ **RAM Configuration** - Easy RAM allocation adjustment
 
+## 📸 Showcase
+
+![Launcher Showcase](showcase.png)
+
 **Requirements:**
 - Windows 10/11
 - Java 17 or higher
