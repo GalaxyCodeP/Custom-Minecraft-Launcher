@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixelmon Launcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Background -->
+  <div class="background-layer"></div>
+  <div class="background-overlay"></div>
+
+  <!-- Floating Particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Title Bar (Frameless Window Controls) -->
+  <div class="title-bar" id="titleBar">
+    <div class="title-bar-drag"></div>
+    <div class="title-bar-controls">
+      <button id="minimizeBtn" class="title-btn" title="Minimize">
+        <svg width="10" height="1" viewBox="0 0 10 1">
+          <rect width="10" height="1" fill="currentColor" />
+        </svg>
+      </button>
+      <button id="maximizeBtn" class="title-btn" title="Maximize">
+        <svg width="10" height="10" viewBox="0 0 10 10">
+          <rect width="10" height="10" rx="0" fill="none" stroke="currentColor" stroke-width="1" />
+        </svg>
+      </button>
+      <button id="closeBtn" class="title-btn close-btn" title="Close">
+        <svg width="10" height="10" viewBox="0 0 10 10">
+          <line x1="0" y1="0" x2="10" y2="10" stroke="currentColor" stroke-width="1.2" />
+          <line x1="10" y1="0" x2="0" y2="10" stroke="currentColor" stroke-width="1.2" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Layout -->
+  <div class="app-wrapper">
+    <!-- Logo Section -->
+    <div class="logo-section">
+      <div class="logo-container">
+        <h1 class="pixelmon-title">
+          <span class="pixel-letter">P</span><span class="pixel-letter">I</span><span class="pixel-letter">X</span><span
+            class="pixel-letter">E</span><span class="pixel-letter">L</span><span class="pixel-letter">M</span><span
+            class="pokeball-letter">O</span><span class="pixel-letter">N</span>
+        </h1>
+        <p class="server-subtitle">MINECRAFT PIXELMON SERVER</p>
+      </div>
+    </div>
+
+    <!-- Center Login Panel -->
+    <div class="login-panel">
+      <div class="panel-inner">
+        <!-- Username Field -->
+        <div class="field-group">
+          <label class="field-label" for="username">Username</label>
+          <input type="text" id="username" class="mc-input" placeholder="Enter your username" maxlength="16"
+            autocomplete="off" spellcheck="false">
+        </div>
+
+        <!-- RAM Selection -->
+        <div class="field-group">
+          <label class="field-label" for="memory">RAM</label>
+          <select id="memory" class="mc-select">
+            <option value="2048">2 GB</option>
+            <option value="4096">4 GB</option>
+            <option value="6144" selected>6 GB</option>
+            <option value="8192">8 GB</option>
+            <option value="12288">12 GB</option>
+          </select>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container" id="progressContainer">
+          <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <span class="progress-text" id="progressText">พร้อมเล่น</span>
+        </div>
+
+        <!-- Play Button -->
+        <button id="launchBtn" class="play-btn">
+          <span class="btn-text" id="btnText">PLAY GAME</span>
+          <span class="btn-glow"></span>
+        </button>
+
+        <!-- Bottom Buttons -->
+        <div class="bottom-buttons">
+          <button id="settingsBtn" class="mc-btn option-btn">OPTION</button>
+          <button id="exitBtn" class="mc-btn exit-btn">EXIT LAUNCHER</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Status Bar (Bottom) -->
+    <div class="status-bar">
+      <div class="status-left">
+        <div class="status-item" id="javaStatus">
+          <span class="status-dot checking"></span>
+          <span class="status-text">Java: ตรวจสอบ...</span>
+        </div>
+        <div class="status-item" id="gameStatus">
+          <span class="status-dot checking"></span>
+          <span class="status-text">Minecraft: ตรวจสอบ...</span>
+        </div>
+        <div class="status-item" id="modsStatus">
+          <span class="status-dot checking"></span>
+          <span class="status-text">Mods: ตรวจสอบ...</span>
+        </div>
+      </div>
+      <div class="status-right">
+        <span class="server-badge">
+          <span class="server-dot"></span>
+          <span id="serverIp">play.yourserver.com</span>:<span id="serverPort">25565</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Console Panel (Toggle) -->
+  <div class="console-panel" id="consolePanel">
+    <div class="console-header">
+      <span>📋 Console Log</span>
+      <button class="console-toggle-btn" id="consoleToggleBtn">▼</button>
+    </div>
+    <div id="consoleOutput" class="console-output"></div>
+  </div>
+  <button class="console-open-btn" id="consoleOpenBtn" title="Open Console">📋</button>
+
+  <!-- Settings Modal -->
+  <div id="settingsModal" class="modal-overlay">
+    <div class="modal-panel">
+      <div class="modal-header">
+        <h2>⚙️ Server Settings</h2>
+        <button id="cancelSettingsBtn" class="modal-close-btn">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="field-group">
+          <label class="field-label">Server IP</label>
+          <input type="text" id="settingsServerIp" class="mc-input" placeholder="play.yourserver.com">
+        </div>
+        <div class="field-group">
+          <label class="field-label">Port</label>
+          <input type="text" id="settingsServerPort" class="mc-input" placeholder="25565">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="saveSettingsBtn" class="mc-btn save-btn">SAVE</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

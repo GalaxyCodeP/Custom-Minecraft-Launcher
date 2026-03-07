@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-electron
+build
+*.log
+.DS_Store
+.env
+
+mods/Cobblemon-fabric-1.7.3+1.21.1.jar
+config/fancymenu/assets/*.mp4

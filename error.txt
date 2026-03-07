@@ -1,0 +1,47 @@
+git : remote: warning: File co
+nfig/fancymenu/assets/cobblemo
+n.mp4 is 53.83 MB; this is 
+larger than GitHub's 
+recommended maximum file size 
+of 50.00 MB        
+At line:1 char:1
++ git push origin main 2>&1 | 
+Out-String | Set-Content 
+error.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (remote: w  
+  arning...0.00 MB        :   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+remote: error: Trace: fe3ae90a
+7b26b0d9591d4d90223255426b026d
+bcbf879f69385c9171c22064c4    
+    
+remote: error: See 
+https://gh.io/lfs for more 
+information.        
+remote: error: File mods/Cobbl
+emon-fabric-1.7.3+1.21.1.jar 
+is 129.51 MB; this exceeds 
+GitHub's file size limit of 
+100.00 MB        
+remote: error: GH001: Large 
+files detected. You may want 
+to try Git Large File Storage 
+- https://git-lfs.github.com. 
+       
+To https://github.com/GalaxyCo
+deP/Custom-Minecraft-Launcher.
+git
+ ! [remote rejected] main -> 
+main (pre-receive hook 
+declined)
+error: failed to push some 
+refs to 'https://github.com/Ga
+laxyCodeP/Custom-Minecraft-Lau
+ncher.git'
+

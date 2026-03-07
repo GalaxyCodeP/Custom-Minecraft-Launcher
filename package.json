@@ -1,0 +1,78 @@
+{
+  "name": "minecraft-launcher-1.21.1",
+  "version": "1.0.0",
+  "description": "Minecraft 1.21.1 Launcher with Mods - Offline Mode",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "keywords": [
+    "minecraft",
+    "launcher",
+    "electron"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "minecraft-launcher-core": "^3.17.3",
+    "adm-zip": "^0.5.10",
+    "fs-extra": "^11.2.0",
+    "axios": "^1.6.5",
+    "node-fetch": "^2.7.0",
+    "tar": "^6.2.0",
+    "progress": "^2.0.3"
+  },
+  "build": {
+    "appId": "com.yourcompany.minecraft-launcher",
+    "productName": "Minecraft Launcher 1.21.1",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "target": "portable"
+    },
+    "extraResources": [
+      {
+        "from": "mods",
+        "to": "mods",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "config",
+        "to": "config",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "defaults",
+        "to": "defaults",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "resourcepacks",
+        "to": "resourcepacks",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ]
+  }
+}
