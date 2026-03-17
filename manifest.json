@@ -1,393 +1,387 @@
-{
-  "version": "1.0.0",
-  "releaseTag": "mods-v1.0.0",
-  "minecraft": "1.21.1",
-  "fabric": "0.16.10",
-  "updatedAt": "2026-03-17T14:11:20.519Z",
-  "mods": [
-    {
-      "name": "BetterGrassify-1.8.2+fabric.1.21.1.jar",
-      "sha1": "a50b412186afdee40274f86fb1f12eea97300071",
-      "size": 75533,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/BetterGrassify-1.8.2%2Bfabric.1.21.1.jar"
-    },
-    {
-      "name": "CobbleFurnies-fabric-1.0.jar",
-      "sha1": "b174451734d3a424fa239612a5814572f76f77db",
-      "size": 2319618,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/CobbleFurnies-fabric-1.0.jar"
-    },
-    {
-      "name": "Cobblemon-fabric-1.7.3+1.21.1.jar",
-      "sha1": "f192cda3fdfec0f20d1dee1887ec1b9e77b1618c",
-      "size": 135801550,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
-    },
-    {
-      "name": "ConfiguredDefaults-v21.1.3-1.21.1-Fabric.jar",
-      "sha1": "bb1e6e25ceceab632d73170111c3c205df0558fa",
-      "size": 43244,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/ConfiguredDefaults-v21.1.3-1.21.1-Fabric.jar"
-    },
-    {
-      "name": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
-      "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
-      "size": 633065,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
-    },
-    {
-      "name": "ImmediatelyFast-Fabric-1.6.7+1.21.1.jar",
-      "sha1": "20e7d5fb3043872896fb7ef745d22847e4111919",
-      "size": 228352,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/ImmediatelyFast-Fabric-1.6.7%2B1.21.1.jar"
-    },
-    {
-      "name": "ObsidianUI-fabric-0.2.9+mc1.21.1.jar",
-      "sha1": "12a8051e00f7725b724b280ad521ee6e8ce5c9e4",
-      "size": 209744,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/ObsidianUI-fabric-0.2.9%2Bmc1.21.1.jar"
-    },
-    {
-      "name": "Zoomify-2.14.6+1.21.1.jar",
-      "sha1": "d435d16a7776b4e89d3a495fb09042bbea6bc589",
-      "size": 1866423,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/Zoomify-2.14.6%2B1.21.1.jar"
-    },
-    {
-      "name": "accessories-fabric-1.1.0-beta.52+1.21.1.jar",
-      "sha1": "e4c823950882d127f6e4c7a710d33c2c84b9c304",
-      "size": 1095894,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/accessories-fabric-1.1.0-beta.52%2B1.21.1.jar"
-    },
-    {
-      "name": "animatica-0.6.1+1.21.jar",
-      "sha1": "fd805fa03e25013b9fe824bf43f7d8a90f565c84",
-      "size": 71502,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/animatica-0.6.1%2B1.21.jar"
-    },
-    {
-      "name": "architectury-13.0.8-fabric.jar",
-      "sha1": "e71346a43c563e5784580dd096338acfb45f49d4",
-      "size": 600915,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/architectury-13.0.8-fabric.jar"
-    },
-    {
-      "name": "athena-fabric-1.21-4.0.2.jar",
-      "sha1": "d79183521f9bcb043ebdc6438f1987e46c12a067",
-      "size": 82788,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/athena-fabric-1.21-4.0.2.jar"
-    },
-    {
-      "name": "boss-cobblemon-1.0.0.jar",
-      "sha1": "f1e84c25a32f817a5490dd7dade51f4480c9bf7c",
-      "size": 28055,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/boss-cobblemon-1.0.0.jar"
-    },
-    {
-      "name": "c2me-fabric-mc1.21.1-0.3.0+alpha.0.362.jar",
-      "sha1": "9beac89c94f36a342cb07cd9fcb42608bdd07771",
-      "size": 4701117,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/c2me-fabric-mc1.21.1-0.3.0%2Balpha.0.362.jar"
-    },
-    {
-      "name": "capes-1.5.4+1.21-fabric.jar",
-      "sha1": "11655909a800fd70e2e0ca940cddc2bdbcbe2003",
-      "size": 77572,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/capes-1.5.4%2B1.21-fabric.jar"
-    },
-    {
-      "name": "citresewn-1.2.2+1.21.jar",
-      "sha1": "5569769f66eda6d51ca3ae56d58d5a4657f19ef9",
-      "size": 396723,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/citresewn-1.2.2%2B1.21.jar"
-    },
-    {
-      "name": "cloth-config-15.0.140-fabric.jar",
-      "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
-      "size": 1157166,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/cloth-config-15.0.140-fabric.jar"
-    },
-    {
-      "name": "cobblemon-journey-mounts-1.7.2.jar",
-      "sha1": "e9934906ef119dc7ab1001f72d4e7b23c2f73220",
-      "size": 7368421,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/cobblemon-journey-mounts-1.7.2.jar"
-    },
-    {
-      "name": "continuity-3.0.0+1.21.jar",
-      "sha1": "c7f09b53512604c2ba6803b1247bc70e4d0f8f8c",
-      "size": 1014044,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/continuity-3.0.0%2B1.21.jar"
-    },
-    {
-      "name": "cwb-fabric-3.0.0+mc1.21.jar",
-      "sha1": "0979201d1d131a3bf0594060c58da7dcb55aded6",
-      "size": 81288,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/cwb-fabric-3.0.0%2Bmc1.21.jar"
-    },
-    {
-      "name": "dynamic-fps-3.9.5+minecraft-1.21.0-fabric.jar",
-      "sha1": "b80091afaf1a7b1657a2ab18cf6caba00c240f45",
-      "size": 191151,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/dynamic-fps-3.9.5%2Bminecraft-1.21.0-fabric.jar"
-    },
-    {
-      "name": "enhancedblockentities-0.10.2+1.21.jar",
-      "sha1": "d81359d77fc7c5437f3e83e519dc2f869300f0cd",
-      "size": 201157,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/enhancedblockentities-0.10.2%2B1.21.jar"
-    },
-    {
-      "name": "entity_model_features_1.21-fabric-3.0.1.jar",
-      "sha1": "ebbb0bbfd426906c426b6c896c70d18644e2a5e9",
-      "size": 471488,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/entity_model_features_1.21-fabric-3.0.1.jar"
-    },
-    {
-      "name": "entity_texture_features_1.21-fabric-7.0.2.jar",
-      "sha1": "7c595765bd95f9bc4edbbef5070637f568e68924",
-      "size": 697674,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/entity_texture_features_1.21-fabric-7.0.2.jar"
-    },
-    {
-      "name": "fabric-api-0.116.8+1.21.1.jar",
-      "sha1": "7bb69655470af3afa456bb2b6e984c87fdfacf47",
-      "size": 2425441,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/fabric-api-0.116.8%2B1.21.1.jar"
-    },
-    {
-      "name": "fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
-      "sha1": "ab71e8daf9a2d529204b5c28b3801713d22f3d46",
-      "size": 7479608,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/fabric-language-kotlin-1.13.7%2Bkotlin.2.2.21.jar"
-    },
-    {
-      "name": "fabricskyboxes-0.7.4+mc1.21.jar",
-      "sha1": "d7c80f23792afc6018da2477d46804114529afca",
-      "size": 206127,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/fabricskyboxes-0.7.4%2Bmc1.21.jar"
-    },
-    {
-      "name": "fabrishot-1.14.1.jar",
-      "sha1": "c8afc690bb3508df7db793f37e1fe5407dba2f22",
-      "size": 51708,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/fabrishot-1.14.1.jar"
-    },
-    {
-      "name": "fancymenu_fabric_3.8.1_MC_1.21.1.jar",
-      "sha1": "65903483bbf770824d821c6065309648aae95304",
-      "size": 4522643,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/fancymenu_fabric_3.8.1_MC_1.21.1.jar"
-    },
-    {
-      "name": "ferritecore-7.0.2-hotfix-fabric.jar",
-      "sha1": "48ee764932d0c8ec81a2223dbe333886938e512c",
-      "size": 120709,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/ferritecore-7.0.2-hotfix-fabric.jar"
-    },
-    {
-      "name": "fsb-interop-1.4.0+mc1.21-build.54.jar",
-      "sha1": "ebd6d9f048b591cee8bbf90b23246f3369161868",
-      "size": 73307,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/fsb-interop-1.4.0%2Bmc1.21-build.54.jar"
-    },
-    {
-      "name": "indium-1.0.35+mc1.21.jar",
-      "sha1": "1bf4b5db91f4e6d7a4f94fe2e96525d22df1cacb",
-      "size": 105000,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/indium-1.0.35%2Bmc1.21.jar"
-    },
-    {
-      "name": "iris-fabric-1.8.8+mc1.21.1.jar",
-      "sha1": "4e0df4011503b4b36ba69877ea7247c1a47fea00",
-      "size": 2690177,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/iris-fabric-1.8.8%2Bmc1.21.1.jar"
-    },
-    {
-      "name": "jei-1.21.1-fabric-19.27.0.340.jar",
-      "sha1": "7a7d5546db421639cd89b7807e9bb6def176cf89",
-      "size": 1561711,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/jei-1.21.1-fabric-19.27.0.340.jar"
-    },
-    {
-      "name": "konkrete_fabric_1.9.9_MC_1.21.jar",
-      "sha1": "c521e23a8be17a941f4f95a76feba9df5e3de5d0",
-      "size": 786695,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/konkrete_fabric_1.9.9_MC_1.21.jar"
-    },
-    {
-      "name": "krypton-0.2.8.jar",
-      "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50",
-      "size": 161045,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/krypton-0.2.8.jar"
-    },
-    {
-      "name": "lambdynamiclights-4.8.7+1.21.1.jar",
-      "sha1": "b7dc4acb053b98810faffab19fde0f18b453a824",
-      "size": 2012226,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/lambdynamiclights-4.8.7%2B1.21.1.jar"
-    },
-    {
-      "name": "lazy-language-loader-0.3.7.jar",
-      "sha1": "ea6349ba680dc616df1dc9b0d348b9d416bf2025",
-      "size": 24354,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/lazy-language-loader-0.3.7.jar"
-    },
-    {
-      "name": "lithium-fabric-0.15.0+mc1.21.1.jar",
-      "sha1": "b7d77602807f2c7cd7132741244bf8c0b8dec6c1",
-      "size": 771768,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/lithium-fabric-0.15.0%2Bmc1.21.1.jar"
-    },
-    {
-      "name": "mcef-fabric-2.1.6-1.21.1.jar",
-      "sha1": "68f9c951b02e864ac6a0b9d4a60c8547d326eb26",
-      "size": 221767,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/mcef-fabric-2.1.6-1.21.1.jar"
-    },
-    {
-      "name": "mega_showdown-fabric-1.6.12+1.7.3+1.21.1.jar",
-      "sha1": "589af14f40b6d8ae133b24a0f90c1cfce00fec19",
-      "size": 16330490,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/mega_showdown-fabric-1.6.12%2B1.7.3%2B1.21.1.jar"
-    },
-    {
-      "name": "melody_fabric_1.0.10_MC_1.21.jar",
-      "sha1": "5624eea73f251c70a9489192d326f9b4aab3b13c",
-      "size": 188035,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/melody_fabric_1.0.10_MC_1.21.jar"
-    },
-    {
-      "name": "midnightlib-1.7.5-fabric+1.21.1.jar",
-      "sha1": "c32c79bd001e400ec7ebaccfffaed465daf42835",
-      "size": 62853,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/midnightlib-1.7.5-fabric%2B1.21.1.jar"
-    },
-    {
-      "name": "modernfix-fabric-5.25.1+mc1.21.1.jar",
-      "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872",
-      "size": 471258,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/modernfix-fabric-5.25.1%2Bmc1.21.1.jar"
-    },
-    {
-      "name": "modmenu-11.0.3.jar",
-      "sha1": "6213120772192040a0aeb5c7cfe330c068605b1f",
-      "size": 973066,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/modmenu-11.0.3.jar"
-    },
-    {
-      "name": "moreculling-fabric-1.21.1-1.0.6.jar",
-      "sha1": "e14150baf443abc24ee6236b837c287dd5950e95",
-      "size": 345544,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/moreculling-fabric-1.21.1-1.0.6.jar"
-    },
-    {
-      "name": "no-telemetry-1.9.0.jar",
-      "sha1": "19545f40c8231fafdc183ea1c675ecbf3ecf025d",
-      "size": 95978,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/no-telemetry-1.9.0.jar"
-    },
-    {
-      "name": "optigui-2.3.0-beta.9+1.21.jar",
-      "sha1": "9f72bd80779118624138cace74da349b5cf31b6f",
-      "size": 614152,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/optigui-2.3.0-beta.9%2B1.21.jar"
-    },
-    {
-      "name": "owo-lib-0.12.15.4+1.21.jar",
-      "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d",
-      "size": 1183559,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/owo-lib-0.12.15.4%2B1.21.jar"
-    },
-    {
-      "name": "particular-1.1.2+1.21.jar",
-      "sha1": "aa59b31359c2211f4a2d401235c4926084d4f97e",
-      "size": 240317,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/particular-1.1.2%2B1.21.jar"
-    },
-    {
-      "name": "placeholder-api-2.4.2+1.21.jar",
-      "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3",
-      "size": 232325,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/placeholder-api-2.4.2%2B1.21.jar"
-    },
-    {
-      "name": "polytone-1.21-3.5.10-fabric.jar",
-      "sha1": "d349a2c590d9ba3e1387d09038b47a8d4df8f8ce",
-      "size": 836045,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/polytone-1.21-3.5.10-fabric.jar"
-    },
-    {
-      "name": "puzzle-fabric-2.0.1.1+1.21.jar",
-      "sha1": "f9c7af4b3c2a6ecb7f606674b087fa8530743062",
-      "size": 140165,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/puzzle-fabric-2.0.1.1%2B1.21.jar"
-    },
-    {
-      "name": "rad-gyms-fabric-0.4.4.jar",
-      "sha1": "9bdb1d497a94cc47902a75e56c752b0f613ff6c4",
-      "size": 1044530,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/rad-gyms-fabric-0.4.4.jar"
-    },
-    {
-      "name": "rctapi-fabric-1.21.1-0.14.8-beta.jar",
-      "sha1": "f9b4f8dd9ef58e8faf61151b8a5656f918171c34",
-      "size": 229381,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/rctapi-fabric-1.21.1-0.14.8-beta.jar"
-    },
-    {
-      "name": "reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
-      "sha1": "c72f07a8f139f0420cbce29bd9eb29fb24db427f",
-      "size": 81067,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/reeses-sodium-options-fabric-1.8.3%2Bmc1.21.4.jar"
-    },
-    {
-      "name": "renderscale-fabric-1.21.1-1.2.jar",
-      "sha1": "507f9d68619252d5b008af8a16e54e72ed7002b3",
-      "size": 85001,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/renderscale-fabric-1.21.1-1.2.jar"
-    },
-    {
-      "name": "sodium-extra-fabric-0.6.0+mc1.21.1.jar",
-      "sha1": "66160fac4fdb9ddd854c5ed068fc329d24d09fd1",
-      "size": 373661,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/sodium-extra-fabric-0.6.0%2Bmc1.21.1.jar"
-    },
-    {
-      "name": "sodium-fabric-0.6.13+mc1.21.1.jar",
-      "sha1": "928a2598178c3a58b0638bab842f467d2e49251a",
-      "size": 1297761,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
-    },
-    {
-      "name": "sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar",
-      "sha1": "7f6af600a58863dfcebe5e3d3ce5e2a4bcabcbd3",
-      "size": 988478,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar"
-    },
-    {
-      "name": "sophisticatedcore-1.21.1-1.2.9.21.168.jar",
-      "sha1": "43a95dfa338a2a6ba3ea33a5efa0ac040331e50c",
-      "size": 2996065,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/sophisticatedcore-1.21.1-1.2.9.21.168.jar"
-    },
-    {
-      "name": "voicechat-fabric-1.21.1-2.6.12.jar",
-      "sha1": "c074f0a66b5a416337e62e96a74cd8ae2b0ad4d7",
-      "size": 5341263,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/voicechat-fabric-1.21.1-2.6.12.jar"
-    },
-    {
-      "name": "xaerominimap-fabric-1.21.1-25.3.10.jar",
-      "sha1": "a231fa03625036fb8118a1a5981f22eac54c3597",
-      "size": 2177333,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/xaerominimap-fabric-1.21.1-25.3.10.jar"
-    },
-    {
-      "name": "yet_another_config_lib_v3-3.7.1+1.21.1-fabric.jar",
-      "sha1": "13f8da46450274ab84db003ef4c37754ceeb690d",
-      "size": 1123593,
-      "url": "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.0.0/yet_another_config_lib_v3-3.7.1%2B1.21.1-fabric.jar"
-    }
-  ]
+﻿{
+    "version":  "1.0.0",
+    "releaseTag":  "mods-v1.3.0",
+    "minecraft":  "1.21.1",
+    "fabric":  "0.16.10",
+    "updatedAt":  "2026-03-17T21:39:35.7583659+07:00",
+    "mods":  [
+                 {
+                     "name":  "accessories-fabric-1.1.0-beta.52+1.21.1.jar",
+                     "sha1":  "e4c823950882d127f6e4c7a710d33c2c84b9c304",
+                     "size":  1095894,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/accessories-fabric-1.1.0-beta.52%2B1.21.1.jar"
+                 },
+                 {
+                     "name":  "animatica-0.6.1+1.21.jar",
+                     "sha1":  "fd805fa03e25013b9fe824bf43f7d8a90f565c84",
+                     "size":  71502,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/animatica-0.6.1%2B1.21.jar"
+                 },
+                 {
+                     "name":  "architectury-13.0.8-fabric.jar",
+                     "sha1":  "e71346a43c563e5784580dd096338acfb45f49d4",
+                     "size":  600915,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/architectury-13.0.8-fabric.jar"
+                 },
+                 {
+                     "name":  "athena-fabric-1.21-4.0.2.jar",
+                     "sha1":  "d79183521f9bcb043ebdc6438f1987e46c12a067",
+                     "size":  82788,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/athena-fabric-1.21-4.0.2.jar"
+                 },
+                 {
+                     "name":  "BetterGrassify-1.8.2+fabric.1.21.1.jar",
+                     "sha1":  "a50b412186afdee40274f86fb1f12eea97300071",
+                     "size":  75533,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/BetterGrassify-1.8.2%2Bfabric.1.21.1.jar"
+                 },
+                 {
+                     "name":  "boss-cobblemon-1.0.0.jar",
+                     "sha1":  "f1e84c25a32f817a5490dd7dade51f4480c9bf7c",
+                     "size":  28055,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/boss-cobblemon-1.0.0.jar"
+                 },
+                 {
+                     "name":  "c2me-fabric-mc1.21.1-0.3.0+alpha.0.362.jar",
+                     "sha1":  "9beac89c94f36a342cb07cd9fcb42608bdd07771",
+                     "size":  4701117,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/c2me-fabric-mc1.21.1-0.3.0%2Balpha.0.362.jar"
+                 },
+                 {
+                     "name":  "capes-1.5.4+1.21-fabric.jar",
+                     "sha1":  "11655909a800fd70e2e0ca940cddc2bdbcbe2003",
+                     "size":  77572,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/capes-1.5.4%2B1.21-fabric.jar"
+                 },
+                 {
+                     "name":  "citresewn-1.2.2+1.21.jar",
+                     "sha1":  "5569769f66eda6d51ca3ae56d58d5a4657f19ef9",
+                     "size":  396723,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/citresewn-1.2.2%2B1.21.jar"
+                 },
+                 {
+                     "name":  "cloth-config-15.0.140-fabric.jar",
+                     "sha1":  "5d82342a2df53fd6df712bfdd583a811572918a4",
+                     "size":  1157166,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/cloth-config-15.0.140-fabric.jar"
+                 },
+                 {
+                     "name":  "CobbleFurnies-fabric-1.0.jar",
+                     "sha1":  "b174451734d3a424fa239612a5814572f76f77db",
+                     "size":  2319618,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/CobbleFurnies-fabric-1.0.jar"
+                 },
+                 {
+                     "name":  "Cobblemon-fabric-1.7.3+1.21.1.jar",
+                     "sha1":  "f192cda3fdfec0f20d1dee1887ec1b9e77b1618c",
+                     "size":  135801550,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
+                 },
+                 {
+                     "name":  "cobblemon-journey-mounts-1.7.2.jar",
+                     "sha1":  "e9934906ef119dc7ab1001f72d4e7b23c2f73220",
+                     "size":  7368421,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/cobblemon-journey-mounts-1.7.2.jar"
+                 },
+                 {
+                     "name":  "ConfiguredDefaults-v21.1.3-1.21.1-Fabric.jar",
+                     "sha1":  "bb1e6e25ceceab632d73170111c3c205df0558fa",
+                     "size":  43244,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/ConfiguredDefaults-v21.1.3-1.21.1-Fabric.jar"
+                 },
+                 {
+                     "name":  "continuity-3.0.0+1.21.jar",
+                     "sha1":  "c7f09b53512604c2ba6803b1247bc70e4d0f8f8c",
+                     "size":  1014044,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/continuity-3.0.0%2B1.21.jar"
+                 },
+                 {
+                     "name":  "cwb-fabric-3.0.0+mc1.21.jar",
+                     "sha1":  "0979201d1d131a3bf0594060c58da7dcb55aded6",
+                     "size":  81288,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/cwb-fabric-3.0.0%2Bmc1.21.jar"
+                 },
+                 {
+                     "name":  "dynamic-fps-3.9.5+minecraft-1.21.0-fabric.jar",
+                     "sha1":  "b80091afaf1a7b1657a2ab18cf6caba00c240f45",
+                     "size":  191151,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/dynamic-fps-3.9.5%2Bminecraft-1.21.0-fabric.jar"
+                 },
+                 {
+                     "name":  "enhancedblockentities-0.10.2+1.21.jar",
+                     "sha1":  "d81359d77fc7c5437f3e83e519dc2f869300f0cd",
+                     "size":  201157,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/enhancedblockentities-0.10.2%2B1.21.jar"
+                 },
+                 {
+                     "name":  "entity_model_features_1.21-fabric-3.0.1.jar",
+                     "sha1":  "ebbb0bbfd426906c426b6c896c70d18644e2a5e9",
+                     "size":  471488,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/entity_model_features_1.21-fabric-3.0.1.jar"
+                 },
+                 {
+                     "name":  "entity_texture_features_1.21-fabric-7.0.2.jar",
+                     "sha1":  "7c595765bd95f9bc4edbbef5070637f568e68924",
+                     "size":  697674,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/entity_texture_features_1.21-fabric-7.0.2.jar"
+                 },
+                 {
+                     "name":  "fabric-api-0.116.8+1.21.1.jar",
+                     "sha1":  "7bb69655470af3afa456bb2b6e984c87fdfacf47",
+                     "size":  2425441,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/fabric-api-0.116.8%2B1.21.1.jar"
+                 },
+                 {
+                     "name":  "fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
+                     "sha1":  "ab71e8daf9a2d529204b5c28b3801713d22f3d46",
+                     "size":  7479608,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/fabric-language-kotlin-1.13.7%2Bkotlin.2.2.21.jar"
+                 },
+                 {
+                     "name":  "fabricskyboxes-0.7.4+mc1.21.jar",
+                     "sha1":  "d7c80f23792afc6018da2477d46804114529afca",
+                     "size":  206127,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/fabricskyboxes-0.7.4%2Bmc1.21.jar"
+                 },
+                 {
+                     "name":  "fabrishot-1.14.1.jar",
+                     "sha1":  "c8afc690bb3508df7db793f37e1fe5407dba2f22",
+                     "size":  51708,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/fabrishot-1.14.1.jar"
+                 },
+                 {
+                     "name":  "fancymenu_fabric_3.8.1_MC_1.21.1.jar",
+                     "sha1":  "65903483bbf770824d821c6065309648aae95304",
+                     "size":  4522643,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/fancymenu_fabric_3.8.1_MC_1.21.1.jar"
+                 },
+                 {
+                     "name":  "ferritecore-7.0.2-hotfix-fabric.jar",
+                     "sha1":  "48ee764932d0c8ec81a2223dbe333886938e512c",
+                     "size":  120709,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/ferritecore-7.0.2-hotfix-fabric.jar"
+                 },
+                 {
+                     "name":  "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+                     "sha1":  "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
+                     "size":  633065,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+                 },
+                 {
+                     "name":  "fsb-interop-1.4.0+mc1.21-build.54.jar",
+                     "sha1":  "ebd6d9f048b591cee8bbf90b23246f3369161868",
+                     "size":  73307,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/fsb-interop-1.4.0%2Bmc1.21-build.54.jar"
+                 },
+                 {
+                     "name":  "ImmediatelyFast-Fabric-1.6.7+1.21.1.jar",
+                     "sha1":  "20e7d5fb3043872896fb7ef745d22847e4111919",
+                     "size":  228352,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/ImmediatelyFast-Fabric-1.6.7%2B1.21.1.jar"
+                 },
+                 {
+                     "name":  "indium-1.0.35+mc1.21.jar",
+                     "sha1":  "1bf4b5db91f4e6d7a4f94fe2e96525d22df1cacb",
+                     "size":  105000,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/indium-1.0.35%2Bmc1.21.jar"
+                 },
+                 {
+                     "name":  "iris-fabric-1.8.8+mc1.21.1.jar",
+                     "sha1":  "4e0df4011503b4b36ba69877ea7247c1a47fea00",
+                     "size":  2690177,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/iris-fabric-1.8.8%2Bmc1.21.1.jar"
+                 },
+                 {
+                     "name":  "konkrete_fabric_1.9.9_MC_1.21.jar",
+                     "sha1":  "c521e23a8be17a941f4f95a76feba9df5e3de5d0",
+                     "size":  786695,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/konkrete_fabric_1.9.9_MC_1.21.jar"
+                 },
+                 {
+                     "name":  "krypton-0.2.8.jar",
+                     "sha1":  "73e792eb5f120787becda4b87b6ff18b26caea50",
+                     "size":  161045,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/krypton-0.2.8.jar"
+                 },
+                 {
+                     "name":  "lambdynamiclights-4.8.7+1.21.1.jar",
+                     "sha1":  "b7dc4acb053b98810faffab19fde0f18b453a824",
+                     "size":  2012226,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/lambdynamiclights-4.8.7%2B1.21.1.jar"
+                 },
+                 {
+                     "name":  "lazy-language-loader-0.3.7.jar",
+                     "sha1":  "ea6349ba680dc616df1dc9b0d348b9d416bf2025",
+                     "size":  24354,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/lazy-language-loader-0.3.7.jar"
+                 },
+                 {
+                     "name":  "lithium-fabric-0.15.0+mc1.21.1.jar",
+                     "sha1":  "b7d77602807f2c7cd7132741244bf8c0b8dec6c1",
+                     "size":  771768,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/lithium-fabric-0.15.0%2Bmc1.21.1.jar"
+                 },
+                 {
+                     "name":  "mcef-fabric-2.1.6-1.21.1.jar",
+                     "sha1":  "68f9c951b02e864ac6a0b9d4a60c8547d326eb26",
+                     "size":  221767,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/mcef-fabric-2.1.6-1.21.1.jar"
+                 },
+                 {
+                     "name":  "mega_showdown-fabric-1.6.12+1.7.3+1.21.1.jar",
+                     "sha1":  "589af14f40b6d8ae133b24a0f90c1cfce00fec19",
+                     "size":  16330490,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/mega_showdown-fabric-1.6.12%2B1.7.3%2B1.21.1.jar"
+                 },
+                 {
+                     "name":  "melody_fabric_1.0.10_MC_1.21.jar",
+                     "sha1":  "5624eea73f251c70a9489192d326f9b4aab3b13c",
+                     "size":  188035,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/melody_fabric_1.0.10_MC_1.21.jar"
+                 },
+                 {
+                     "name":  "midnightlib-1.7.5-fabric+1.21.1.jar",
+                     "sha1":  "c32c79bd001e400ec7ebaccfffaed465daf42835",
+                     "size":  62853,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/midnightlib-1.7.5-fabric%2B1.21.1.jar"
+                 },
+                 {
+                     "name":  "modernfix-fabric-5.25.1+mc1.21.1.jar",
+                     "sha1":  "4ab39e9c736e7204146792c545ec5b29fc0a3872",
+                     "size":  471258,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/modernfix-fabric-5.25.1%2Bmc1.21.1.jar"
+                 },
+                 {
+                     "name":  "modmenu-11.0.3.jar",
+                     "sha1":  "6213120772192040a0aeb5c7cfe330c068605b1f",
+                     "size":  973066,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/modmenu-11.0.3.jar"
+                 },
+                 {
+                     "name":  "moreculling-fabric-1.21.1-1.0.6.jar",
+                     "sha1":  "e14150baf443abc24ee6236b837c287dd5950e95",
+                     "size":  345544,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/moreculling-fabric-1.21.1-1.0.6.jar"
+                 },
+                 {
+                     "name":  "no-telemetry-1.9.0.jar",
+                     "sha1":  "19545f40c8231fafdc183ea1c675ecbf3ecf025d",
+                     "size":  95978,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/no-telemetry-1.9.0.jar"
+                 },
+                 {
+                     "name":  "ObsidianUI-fabric-0.2.9+mc1.21.1.jar",
+                     "sha1":  "12a8051e00f7725b724b280ad521ee6e8ce5c9e4",
+                     "size":  209744,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/ObsidianUI-fabric-0.2.9%2Bmc1.21.1.jar"
+                 },
+                 {
+                     "name":  "optigui-2.3.0-beta.9+1.21.jar",
+                     "sha1":  "9f72bd80779118624138cace74da349b5cf31b6f",
+                     "size":  614152,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/optigui-2.3.0-beta.9%2B1.21.jar"
+                 },
+                 {
+                     "name":  "owo-lib-0.12.15.4+1.21.jar",
+                     "sha1":  "45725e6d33b624e565a7a6e5d3627af40814288d",
+                     "size":  1183559,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/owo-lib-0.12.15.4%2B1.21.jar"
+                 },
+                 {
+                     "name":  "particular-1.1.2+1.21.jar",
+                     "sha1":  "aa59b31359c2211f4a2d401235c4926084d4f97e",
+                     "size":  240317,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/particular-1.1.2%2B1.21.jar"
+                 },
+                 {
+                     "name":  "placeholder-api-2.4.2+1.21.jar",
+                     "sha1":  "aa1b9a49f9f190dfe4825c502b150817dd2998c3",
+                     "size":  232325,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/placeholder-api-2.4.2%2B1.21.jar"
+                 },
+                 {
+                     "name":  "polytone-1.21-3.5.10-fabric.jar",
+                     "sha1":  "d349a2c590d9ba3e1387d09038b47a8d4df8f8ce",
+                     "size":  836045,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/polytone-1.21-3.5.10-fabric.jar"
+                 },
+                 {
+                     "name":  "puzzle-fabric-2.0.1.1+1.21.jar",
+                     "sha1":  "f9c7af4b3c2a6ecb7f606674b087fa8530743062",
+                     "size":  140165,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/puzzle-fabric-2.0.1.1%2B1.21.jar"
+                 },
+                 {
+                     "name":  "rad-gyms-fabric-0.4.4.jar",
+                     "sha1":  "9bdb1d497a94cc47902a75e56c752b0f613ff6c4",
+                     "size":  1044530,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/rad-gyms-fabric-0.4.4.jar"
+                 },
+                 {
+                     "name":  "rctapi-fabric-1.21.1-0.14.8-beta.jar",
+                     "sha1":  "f9b4f8dd9ef58e8faf61151b8a5656f918171c34",
+                     "size":  229381,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/rctapi-fabric-1.21.1-0.14.8-beta.jar"
+                 },
+                 {
+                     "name":  "reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+                     "sha1":  "c72f07a8f139f0420cbce29bd9eb29fb24db427f",
+                     "size":  81067,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/reeses-sodium-options-fabric-1.8.3%2Bmc1.21.4.jar"
+                 },
+                 {
+                     "name":  "renderscale-fabric-1.21.1-1.2.jar",
+                     "sha1":  "507f9d68619252d5b008af8a16e54e72ed7002b3",
+                     "size":  85001,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/renderscale-fabric-1.21.1-1.2.jar"
+                 },
+                 {
+                     "name":  "sodium-extra-fabric-0.6.0+mc1.21.1.jar",
+                     "sha1":  "66160fac4fdb9ddd854c5ed068fc329d24d09fd1",
+                     "size":  373661,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/sodium-extra-fabric-0.6.0%2Bmc1.21.1.jar"
+                 },
+                 {
+                     "name":  "sodium-fabric-0.6.13+mc1.21.1.jar",
+                     "sha1":  "928a2598178c3a58b0638bab842f467d2e49251a",
+                     "size":  1297761,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
+                 },
+                 {
+                     "name":  "sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar",
+                     "sha1":  "7f6af600a58863dfcebe5e3d3ce5e2a4bcabcbd3",
+                     "size":  988478,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar"
+                 },
+                 {
+                     "name":  "sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+                     "sha1":  "43a95dfa338a2a6ba3ea33a5efa0ac040331e50c",
+                     "size":  2996065,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/sophisticatedcore-1.21.1-1.2.9.21.168.jar"
+                 },
+                 {
+                     "name":  "voicechat-fabric-1.21.1-2.6.12.jar",
+                     "sha1":  "c074f0a66b5a416337e62e96a74cd8ae2b0ad4d7",
+                     "size":  5341263,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/voicechat-fabric-1.21.1-2.6.12.jar"
+                 },
+                 {
+                     "name":  "xaerominimap-fabric-1.21.1-25.3.10.jar",
+                     "sha1":  "a231fa03625036fb8118a1a5981f22eac54c3597",
+                     "size":  2177333,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/xaerominimap-fabric-1.21.1-25.3.10.jar"
+                 },
+                 {
+                     "name":  "yet_another_config_lib_v3-3.7.1+1.21.1-fabric.jar",
+                     "sha1":  "13f8da46450274ab84db003ef4c37754ceeb690d",
+                     "size":  1123593,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/yet_another_config_lib_v3-3.7.1%2B1.21.1-fabric.jar"
+                 },
+                 {
+                     "name":  "Zoomify-2.14.6+1.21.1.jar",
+                     "sha1":  "d435d16a7776b4e89d3a495fb09042bbea6bc589",
+                     "size":  1866423,
+                     "url":  "https://github.com/GalaxyCodeP/Custom-Minecraft-Launcher/releases/download/mods-v1.3.0/Zoomify-2.14.6%2B1.21.1.jar"
+                 }
+             ]
 }
